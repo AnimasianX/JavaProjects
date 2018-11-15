@@ -18,7 +18,7 @@ public class JDBCDemo {
 		try {
 			//getconnection takes in 3 argument, the url, username and password of the connection we are attempting to connect to.
 			//establish connection object
-			Connection conn = DriverManager.getConnection(url, "root", "Jimster2744");
+			Connection conn = DriverManager.getConnection(url, "root", "????????");
 			
 			//create a statement object to sent to the database
 			Statement statement = conn.createStatement();
